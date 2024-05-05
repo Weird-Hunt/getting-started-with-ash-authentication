@@ -4,9 +4,13 @@ This is a quickstart repo which is the completed `Getting Started with Ash Authe
 
 [Getting-Started-With-Ash-Authentication](https://hexdocs.pm/ash_authentication_phoenix/1.9.4/getting-started-with-ash-authentication-phoenix.html#green-field-phoenix-application)
 
+## Get Started
+
 To start your Phoenix server:
 
 - Run `mix setup` to install and setup dependencies
+- Run `mix ash_postgres.create`
+- Run `mix ash_postgres.migrate`
 - Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
